@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0px;
+
+}
+
+.form1, .form2, .form3 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  justify-self: center;
+}
+
+li {
+  padding-left: 0px;
+}
+
+li:before {
+  content: '•';
+  color: red;
+}

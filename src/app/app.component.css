@@ -1,0 +1,38 @@
+.background-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(272.99deg, #FFFFFF -202.27%, rgba(255, 255, 255, 0.619485) -110.39%, rgba(255, 255, 255, 0) 45.94%), #0D3952;
+}
+
+.logotype {
+  justify-self: center;
+  grid-column: 2;
+  padding-top: 20px;
+}
+
+.form1 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.form2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.form3 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.information {
+  justify-self: center;
+  font-family: 'Poppins';
+  color: white;
+  grid-column: 2;
+  grid-row: 3;
+}
+

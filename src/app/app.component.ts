@@ -11,7 +11,8 @@ export class AppComponent implements OnInit {
   constructor(private sharepoint: SharepointService) { }
 
   ngOnInit(): void {
-    this.sharepoint.getAbsenseList().subscribe(res => {
+    this.sharepoint.getAbsenseList()
+      .subscribe(res => {
       console.log(res);
     });
   }
