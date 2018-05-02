@@ -1,19 +1,29 @@
 * {
   margin: 0px;
-
-}
-
-.form1, .form2, .form3 {
   font-family: 'Poppins', sans-serif;
   color: white;
+}
+
+.form {
   justify-self: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
   padding-left: 0px;
+  text-align: center;
 }
 
 li:before {
   content: '•';
   color: red;
+}
+
+h2 {
+  text-align: center;
 }
